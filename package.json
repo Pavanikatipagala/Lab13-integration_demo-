@@ -3,10 +3,10 @@
   "version": "1.0.0",
   "description": "",
   "main": "app.js",
-  "scripts": {
-    "test": "jest",
-    "test:integration": "npx jest tests/integration"
-  },
+"scripts": {
+  "test": "node ./node_modules/jest/bin/jest.js",
+  "test:integration": "node ./node_modules/jest/bin/jest.js tests/integration"
+}
   "keywords": [],
   "author": "",
   "license": "ISC",
